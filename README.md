@@ -1,5 +1,5 @@
 <div align='center'>
-  <h1>Torch Based Yolov1 Model From Scratch</h1>
+  <h1>Yolov1 Model using PyTorch</h1>
 </div>
 
-The main target of this repository is to create yolov1 structure from scratch by using PyTorch.
+The main target of this repository is to implement yolov1 structure from scratch by using PyTorch.

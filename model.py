@@ -75,7 +75,7 @@ class Yolov1(nn.Module):
                         CNNBlock(first_conv[1], second_conv[1], kernel_size = second_conv[0], stride = second_conv[2], padding = second_conv[3])
                     ]
                     
-                    in_channels += second_conv[1]
+                    in_channels = second_conv[1]
                     
         return nn.Sequential(*layers) 
     
